@@ -12,6 +12,14 @@
     <title>Competition</title>
   </head>
   <body>
+    <script>
+      document.body.style.zoom = window.innerWidth / 1940;
+
+      window.onresize = function (event) {
+        var innerWidth = window.innerWidth;
+        document.body.style.zoom = innerWidth / 1940;
+      };
+    </script>
     <img src="Desktop - 12.png" id="main" />
 
     <div class="giho">WHAT WE DO >> 프로그램</div>
